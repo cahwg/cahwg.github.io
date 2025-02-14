@@ -53,7 +53,7 @@ body {
   min-height: 100vh; /* Ganti height: 100vh menjadi min-height */
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgb(0, 0, 0)), 
               url('../img/bg-homs.jpg') center/contain no-repeat; /* Ganti cover jadi contain */
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   text-align: center;
 }
