@@ -4,7 +4,7 @@ const data = [
   { nama: "Asrul Syahrian", img: "asrul.jpg" },
   { nama: "Fandi Christian Asyer", img: "fandi.jpg" },
   { nama: "Haddad Razib Pangestu", img: "rajib.jpg" },
-  { nama: "Hasan Rizqi Abdur Rohman", img: "hasan,jpg" },
+  { nama: "Hasan Rizqi Abdur Rohman", img: "hasan.jpg" },
   { nama: "Ibnu Firmansyah", img: "ibnu.jpg" },
   { nama: "M. Fadli Juliansyah", img: "fadli.jpg" },
   { nama: "M. Fardhan Syarif", img: "fardhan.jpg" },
@@ -45,7 +45,7 @@ function prevPage() {
   }
 }
 
-renderData();
+document.addEventListener("DOMContentLoaded", renderData);
 
 // Ambil elemen overlay dan tombol
 const overlay = document.getElementById('overlay');
